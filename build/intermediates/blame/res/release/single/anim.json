@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\activity_in.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\anim\\activity_in.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\alpha.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\activity_back_in.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\anim\\activity_back_in.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\activity_back_out.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\anim\\activity_back_out.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_bottom.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\activity_out.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\anim\\activity_out.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\release\\anim\\translate.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\anim\\translate.xml"
+    }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\libs\acra-4.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7864f0ac6c74d84e465aa5449fa14408b0a1418f">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\release\acra-4.4.0_7ca15bf99d472f7aa1dd20d1796906425ad71406.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\release\ksoap2-android-assembly-3.0.0-jar-with-dependencies_5d15b993cbfae118b74d13380da9b151a15e804f.jar" />
+    </item>
+
+</items>
