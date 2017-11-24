@@ -3,12 +3,111 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\c37f42f3c46c0a3f4cd578e0183817c6227e475e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_1e69c74de6c0f3e7fc7229f0c50ea1005b45566f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\c37f42f3c46c0a3f4cd578e0183817c6227e475e\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_b17f2836fbc20e074479be2549711860067f2b7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\4cd05773eb41432629678e665daf6421a2614219\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_726d3d1f63265ebec2d457dc8fffe23e2b98fc9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\java_jdk\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_849d0ecf614f711620d0bba7903094ba3c0d98bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\765276b097986747c3be20de9dcdc2ec4897534c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_da66e4eb34520e5c0f1f7fab97c3d3b8086cded3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebbf7c474077a556b0e77b95a2e33747c7eae4d1">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_18ab0209f3f6a8cf4c4ad5d1c61e824a8addb7c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\libs\acra-4.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="7864f0ac6c74d84e465aa5449fa14408b0a1418f">
-        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\release\acra-4.4.0_7ca15bf99d472f7aa1dd20d1796906425ad71406.jar" />
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\acra-4.4.0_7ca15bf99d472f7aa1dd20d1796906425ad71406.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\4cd05773eb41432629678e665daf6421a2614219\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_633f5300fe14706f0487670b5d9524f4bd424989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\bc3e4a21fbe0ce03536e9d6216d91d998ad0804e\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_1182a8d1a36965989a78b4bcc02add7b236c4d4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\5cd21cbc058ff1dcd028dd7549a025ad7862012f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_5d4f71c4cbed82e52b91d2c3dfca91915b866bc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\69b015d6b601f378dcec723d33038c2eec9a3f1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_1dd19dd6da5e8101ffd249982bac56c1d24d8628.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\69b015d6b601f378dcec723d33038c2eec9a3f1b\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_8a2939b91a33314af4ae392b9b5e17d714efd2b3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -17,7 +116,43 @@
         optimize="true"
         revision="25.0.0"
         sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
-        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\release\ksoap2-android-assembly-3.0.0-jar-with-dependencies_5d15b993cbfae118b74d13380da9b151a15e804f.jar" />
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.0.0-jar-with-dependencies_5d15b993cbfae118b74d13380da9b151a15e804f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\core\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d84b4b299283b0073757191aae8e9d93c1c819f8">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_0fd68d49b612b6bffff689312a95a71919c6b921.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\bc3e4a21fbe0ce03536e9d6216d91d998ad0804e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_015531787b233beac4aa6aa2a8608c1b5d296e8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\zxing\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e80286fbf514d47a1467f093834475dac04ac640">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\classes_a52378b4905f92ad1e90fcc1a0b9649f549a03b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jeevanp.CPMIN.000\.android\build-cache\5cd21cbc058ff1dcd028dd7549a025ad7862012f\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="F:\jeevanAndroidProject\androidProject\VOTO-13SepT\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_85da04083fe20c1e8b59a660e5e9dede97c3f907.jar" />
     </item>
 
 </items>

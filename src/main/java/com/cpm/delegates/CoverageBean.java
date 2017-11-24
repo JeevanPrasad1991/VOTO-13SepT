@@ -21,6 +21,16 @@ public class CoverageBean
 	protected String outTime="";
 	
 	protected String visitDate;
+
+	public String getEmp_cd() {
+		return emp_cd;
+	}
+
+	public void setEmp_cd(String emp_cd) {
+		this.emp_cd = emp_cd;
+	}
+
+	protected String emp_cd;
 	private String latitude;
 	private String longitude;
 	private String reasonid="";

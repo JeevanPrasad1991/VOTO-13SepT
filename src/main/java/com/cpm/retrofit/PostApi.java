@@ -12,5 +12,6 @@ import retrofit.http.POST;
 
 public interface PostApi {
     @POST("Uploadimages")
-        Call<String> getUploadImage(@Body RequestBody reqesBody);
+    Call<String> getUploadImage(@Body RequestBody reqesBody);
 }
+

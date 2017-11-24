@@ -50,5 +50,6 @@
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Skrá inn með Google"</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Hreinsa leit"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Leita"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Leita"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

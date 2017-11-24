@@ -31,6 +31,7 @@ public class RetrofitClass {
     public static RequestBody body1;
     public static String result = "";
     static boolean isvalid = false;
+
     public static synchronized String UploadImageByRetrofit(final Context context, final String file_name, String folder_name) {
         isvalid = false;
         result = "";
@@ -50,7 +51,7 @@ public class RetrofitClass {
         call.enqueue(new Callback<String>() {
             @Override
             public void onResponse(Response<String> response) {
-                if (response.toString()!=null){
+                if (response.toString() != null) {
                     if (response.body().contains(CommonString.KEY_SUCCESS)) {
                         isvalid = true;
                         response.toString();
@@ -59,10 +60,9 @@ public class RetrofitClass {
                     } else {
                         result = "Servererror!";
                     }
-                }else {
+                } else {
                     result = "Servererror!";
                 }
-
             }
             @Override
             public void onFailure(Throwable t) {

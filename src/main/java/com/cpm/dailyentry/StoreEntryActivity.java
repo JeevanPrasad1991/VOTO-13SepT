@@ -42,7 +42,6 @@ public class StoreEntryActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Store Entry");
         recyclerView = (RecyclerView) findViewById(R.id.drawer_layout_recycle);
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         editor = preferences.edit();
@@ -50,6 +49,7 @@ public class StoreEntryActivity extends AppCompatActivity {
         username = preferences.getString(CommonString.KEY_USERNAME, null);
         visit_date = preferences.getString(CommonString.KEY_DATE, null);
         user_type = preferences.getString(CommonString.KEY_USER_TYPE, null);
+        getSupportActionBar().setTitle("Store Entry -" + visit_date);
         db = new GSKDatabase(this);
         db.open();
     }
@@ -58,9 +58,17 @@ public class StoreEntryActivity extends AppCompatActivity {
     protected void onResume() {
         // TODO Auto-generated method stub
         super.onResume();
-        if (db.isStockEntryWithFilled(store_cd)) {
-            db.updateCoverageStoreStatus(store_cd, visit_date, CommonString.KEY_VALID);
+        if (!user_type.equalsIgnoreCase("ISD")) {
+            if (db.isAuditEntryFilled(store_cd)) {
+
+                db.updateCoverageStoreStatus(store_cd, visit_date, CommonString.KEY_VALID);
+            }
+        } else {
+            if (db.isStockEntryWithFilled(store_cd) && db.isMiddayDataFilled(store_cd)) {
+                db.updateCoverageStoreStatus(store_cd, visit_date, CommonString.KEY_VALID);
+            }
         }
+
         recyclerView = (RecyclerView) findViewById(R.id.drawer_layout_recycle);
         adapter = new ValueAdapter(getApplicationContext(), getdata());
         recyclerView.setAdapter(adapter);
@@ -118,18 +126,22 @@ public class StoreEntryActivity extends AppCompatActivity {
                         overridePendingTransition(R.anim.activity_in, R.anim.activity_out);
                     }
 
-                    if (current.getIconImg() == R.drawable.sales_entry || current.getIconImg() == R.drawable.sales_entry_done) {
-                        Intent in7 = new Intent(getApplicationContext(), SaleEntryActivity.class);
-                        startActivity(in7);
-                        overridePendingTransition(R.anim.activity_in, R.anim.activity_out);
-                    }
-                    if (db.isStockEntryFilled(store_cd)) {
-                        Snackbar.make(recyclerView, "Stock entry data already uploaded", Snackbar.LENGTH_LONG).show();
-                    } else if (db.isStockEntryWithFilled(store_cd)) {
-                        if (current.getIconImg() == R.drawable.stock_entry || current.getIconImg() == R.drawable.stock_entry_done) {
-                            startActivity(new Intent(getApplicationContext(), StockEntryActivity.class));
+                    if (db.isNoSaleSEntryFilled(store_cd) && current.getIconImg() == R.drawable.sales_entry_done) {
+                        Snackbar.make(recyclerView, "You have already click no sale for today. You are not allowed enter more sale today.", Snackbar.LENGTH_LONG).show();
+                    } else {
+                        if (current.getIconImg() == R.drawable.sales_entry || current.getIconImg() == R.drawable.sales_entry_done) {
+                            Intent in7 = new Intent(getApplicationContext(), SaleEntryActivity.class);
+                            startActivity(in7);
                             overridePendingTransition(R.anim.activity_in, R.anim.activity_out);
                         }
+                    }
+
+                    if (db.isStockEntryFilled(store_cd) && current.getIconImg() == R.drawable.stock_entry || current.getIconImg() == R.drawable.stock_entry_done) {
+                        Snackbar.make(recyclerView, "Stock entry data already uploaded", Snackbar.LENGTH_LONG).show();
+                    } else if (db.isStockEntryWithFilled(store_cd) && current.getIconImg() == R.drawable.stock_entry || current.getIconImg() == R.drawable.stock_entry_done) {
+                        startActivity(new Intent(getApplicationContext(), StockEntryActivity.class));
+                        overridePendingTransition(R.anim.activity_in, R.anim.activity_out);
+
                     } else {
                         if (current.getIconImg() == R.drawable.stock_entry || current.getIconImg() == R.drawable.stock_entry_done) {
                             startActivity(new Intent(getApplicationContext(), StockEntryActivity.class));
@@ -140,10 +152,12 @@ public class StoreEntryActivity extends AppCompatActivity {
                 }
             });
         }
+
         @Override
         public int getItemCount() {
             return data.size();
         }
+
         class MyViewHolder extends RecyclerView.ViewHolder {
             ImageView icon;
             TextView icon_txtname;
@@ -156,6 +170,7 @@ public class StoreEntryActivity extends AppCompatActivity {
         }
 
     }
+
     public List<NavMenuItemGetterSetter> getdata() {
         List<NavMenuItemGetterSetter> data = new ArrayList<>();
         int audit, saleentry, stock_entry;
@@ -168,7 +183,7 @@ public class StoreEntryActivity extends AppCompatActivity {
                 stock_entry = R.drawable.stock_entry;
             }
         }
-        if (db.isClosingDataFilled(store_cd)) {
+        if (db.isAuditEntryFilled(store_cd)) {
             audit = R.drawable.audit_done;
         } else {
             audit = R.drawable.audit;
@@ -187,8 +202,7 @@ public class StoreEntryActivity extends AppCompatActivity {
                 recData.setIconName(name[i]);
                 data.add(recData);
             }
-
-        } else if (user_type.equalsIgnoreCase("Superviser")) {
+        } else if (!user_type.equalsIgnoreCase("ISD")) {
             int img[] = {audit};
             String name[] = {"Audit"};
             for (int i = 0; i < img.length; i++) {

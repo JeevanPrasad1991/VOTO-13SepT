@@ -3,6 +3,15 @@ package com.cpm.delegates;
 public class TableBean {
 	public static String jcptable;
 	public static String nonworkingtable;
+	public static String HR_DOCUMENTS;
+
+	public static String getHrDocuments() {
+		return HR_DOCUMENTS;
+	}
+
+	public static void setHrDocuments(String hrDocuments) {
+		HR_DOCUMENTS = hrDocuments;
+	}
 
 	public static String getQuestiontable() {
 		return questiontable;
@@ -31,6 +40,26 @@ public class TableBean {
 	}
 
 	public static String modeltable;
+
+	public static String getSupteamtable() {
+		return supteamtable;
+	}
+
+	public static void setSupteamtable(String supteamtable) {
+		TableBean.supteamtable = supteamtable;
+	}
+
+	public static String supteamtable;
+
+	public static String getAuditquestiontable() {
+		return auditquestiontable;
+	}
+
+	public static void setAuditquestiontable(String auditquestiontable) {
+		TableBean.auditquestiontable = auditquestiontable;
+	}
+
+	public static String auditquestiontable;
 
 
 

@@ -7,13 +7,14 @@
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_marginTop="15dp"
         android:paddingLeft="5dp"
         android:text="Downloading Files"
         android:textSize="@dimen/store_entry_text_size"
         android:paddingBottom="20dp"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
     <ProgressBar

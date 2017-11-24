@@ -56,12 +56,6 @@ public class AutoupdateActivity extends Activity {
 		status = intent.getBooleanExtra(CommonString.KEY_STATUS, false);
 
 		setContentView(R.layout.main);
-		
-		/*if (status)
-			setContentView(R.layout.mainpage);
-		else
-			setContentView(R.layout.new_main);*/
-
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("Parinaam");
 		builder.setMessage("New Update Available.")
@@ -85,18 +79,6 @@ public class AutoupdateActivity extends Activity {
 
 					}
 				});
-				/*.setNegativeButton("Cancel",
-						new DialogInterface.OnClickListener() {
-							public void onClick(DialogInterface dialog, int id) {
-
-								Intent i = new Intent(AutoupdateActivity.this,
-										MainActivity.class);
-								startActivity(i);
-
-								AutoupdateActivity.this.finish();
-
-							}
-						});*/
 		AlertDialog alert = builder.create();
 
 		alert.show();

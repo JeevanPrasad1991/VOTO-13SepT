@@ -15,9 +15,8 @@ import retrofit.Converter;
  */
 
 public class StringConverterFactory implements Converter.Factory {
-    StringConverterFactory() {
+    public StringConverterFactory() {
     }
-
     @Override
     public Converter<String> get(Type type) {
         Class<?> cls = (Class<?>) type;

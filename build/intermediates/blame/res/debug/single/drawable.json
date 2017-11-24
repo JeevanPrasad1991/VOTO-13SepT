@@ -1,35 +1,27 @@
 [
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_btn_selected_dark.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_bottom.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\default_scroll_handle_bottom.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient_bg_hover.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\gradient_bg_hover.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_flash_auto.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_flash_auto.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_right.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\default_scroll_handle_right.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\app_logo.png",
@@ -40,44 +32,52 @@
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_top.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\default_scroll_handle_top.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\rouded_corner.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\rouded_corner.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\login_header.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\login_header.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_square_selected.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_square_selected.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\sad_cloud.jpg",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\sad_cloud.jpg"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_circle_selector.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_circle_selector.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
@@ -92,36 +92,228 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\parinaam_logo.png"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\back_btn_bg.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\back_btn_bg.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient_background.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\gradient_background.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\tick_c.png",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\tick_c.png"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_stop.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_stop.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_play.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_play.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_stillshot.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_stillshot.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\custome_border.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\custome_border.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_circle_selected.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_circle_selected.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\tick_d.png",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\tick_d.png"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\sign_in_selector.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\sign_in_selector.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_capture.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_capture.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\signin_btn.png",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\signin_btn.png"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_square_selector.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_square_selector.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\tick_p.png",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\tick_p.png"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\audit.png",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\audit.png"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient_bg_hover.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\gradient_bg_hover.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_btn_selected.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_right.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\rouded_corner.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\rouded_corner.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\sad_cloud.jpg",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\sad_cloud.jpg"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_selector.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient_background.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\back_btn_bg.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\back_btn_bg.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_transparent.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_transparent.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_flash.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_flash.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_btn_hover.png",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\blue_btn_hover.png"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_camera_rear.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_camera_rear.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_btn.png",
@@ -132,52 +324,40 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\gradient_bg.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\custome_border.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\custome_border.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\tickgreenv.png",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\tickgreenv.png"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected_dark.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_item_selected_dark.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\tick_u.png",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\tick_u.png"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\tick_d.png",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\tick_d.png"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\drawable\\md_item_selected.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_pause.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_pause.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\capital_logo.png",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\capital_logo.png"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_action_flash_off.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_action_flash_off.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_left.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\default_scroll_handle_left.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\titletext_bg.xml",
@@ -185,19 +365,23 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\sign_in_selector.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\sign_in_selector.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\mcam_camera_front.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\mcam_camera_front.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
@@ -209,54 +393,18 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\signin_btn.png",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\signin_btn.png"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\tick_p.png",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\tick_p.png"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\login_txt.png",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\login_txt.png"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\95adb6c0327ee4572caf93edf85a302ef4060260\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\btnsavebg.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\btnsavebg.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\drawable\\audit.png",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\drawable\\audit.png"
     }
 ]

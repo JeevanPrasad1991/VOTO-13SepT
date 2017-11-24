@@ -9,6 +9,25 @@ public class NonWorkingReasonGetterSetter {
 	ArrayList<String> reason_cd=new ArrayList<String>();
 	ArrayList<String> reason=new ArrayList<String>();
 	ArrayList<String> entry_allow=new ArrayList<>();
+	ArrayList<String> image_allow=new ArrayList<>();
+
+	public ArrayList<String> getImage_allow() {
+		return image_allow;
+	}
+
+	public void setImage_allow(String image_allow) {
+		this.image_allow.add(image_allow);
+	}
+
+	public ArrayList<String> getFor_attendence() {
+		return for_attendence;
+	}
+
+	public void setFor_attendence(String for_attendence) {
+		this.for_attendence.add(for_attendence);
+	}
+
+	ArrayList<String> for_attendence=new ArrayList<>();
 
 
 	public String getNonworking_table() {

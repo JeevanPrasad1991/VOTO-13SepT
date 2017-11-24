@@ -182,9 +182,6 @@ public class AlertMessage {
         builder.setMessage(str).setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        //	Intent i = new Intent(activity, MainActivity.class);
-                       /* Intent i = new Intent(activity, DailyEntryScreen.class);
-                        activity.startActivity(i);*/
                         activity.finish();
                     }
                 });

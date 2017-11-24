@@ -4,6 +4,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
     }
 }
 
@@ -12,14 +14,13 @@ allprojects {
         jcenter()
     }
 }
+
 apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
     buildToolsVersion "25.0.0"
-
     useLibrary 'org.apache.http.legacy'
-
     defaultConfig {
         applicationId "com.cpm.voto"
         minSdkVersion 15
@@ -27,9 +28,10 @@ android {
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_7
             targetCompatibility JavaVersion.VERSION_1_7
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+            vectorDrawables.useSupportLibrary = true
         }
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -39,17 +41,23 @@ android {
 }
 
 dependencies {
-
     compile files('libs/acra-4.4.0.jar')
     compile files('libs/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar')
-
+   // compile project(':android-pdf-viewer')
+    compile project(path: ':library')
+    compile project(":zxing")
+    compile project(":core")
+    //noinspection GradleCompatible
     compile 'com.android.support:support-v4:23.1.1'
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:cardview-v7:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
+
+
     compile 'com.google.android.gms:play-services-location:8.4.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
     compile 'com.squareup.retrofit:converter-gson:2.0.0-beta1'
+
 }

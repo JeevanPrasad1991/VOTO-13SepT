@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/supervisorattentence_act">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layoutsup_u"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/hk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Supervisor Attendence "
+            android:textColor="#f26d20"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/supAtten_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/hk"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/relimgcam_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgcam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:src="@drawable/camera" />
+    </RelativeLayout>
+
+<!--
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:id="@+id/layout_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relimgcam"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Remark"
+            android:textColor="#f26d20"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/supervisor_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/rouded_corner"
+            android:hint="Please enter remark"
+            android:imeOptions="actionNone"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+-->
+
+
+    <LinearLayout
+        android:id="@+id/no_data_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_background"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius="5dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="No data available"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="4"
+            android:background="@drawable/sad_cloud" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius="5dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Please download data"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>

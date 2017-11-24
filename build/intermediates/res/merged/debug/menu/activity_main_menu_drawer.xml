@@ -4,63 +4,39 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_daily"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@mipmap/entry_grey"
             android:title="Daily Entry" />
         <item
             android:id="@+id/nav_download"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@mipmap/download_grey"
             android:title="Download" />
-
         <item
             android:id="@+id/nav_upload"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@mipmap/upload_grey"
             android:title="Upload" />
         <item
             android:id="@+id/nav_performance"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@mipmap/performance"
             android:title="Performance" />
         <item
             android:id="@+id/nav_export"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@mipmap/settings_grey"
             android:title="Export" />
 
         <item
+            android:id="@+id/nav_pdfdocument"
+            android:icon="@mipmap/documents"
+            android:title="Documents" />
+        <item
             android:id="@+id/nav_exit"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@mipmap/exit_grey"
             android:title="Exit" />
     </group>
-
-    <!--<group android:checkableBehavior="all">
-        <item
-            android:id="@+id/nav_upload"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Upload" >
-            <menu>
-                <item
-                    android:id="@+id/nav_upload_data"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="Data"
-                    />
-                <item
-                    android:id="@+id/nav_uplaod_image"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Image"
-                    />
-            </menu>
-        </item>
-
-        </group>-->
-
-
     <item android:title="Communicate">
         <menu>
-           <!-- <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />-->
             <item
                 android:id="@+id/nav_help"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@mipmap/help"
                 android:title="Help" />
         </menu>
     </item>

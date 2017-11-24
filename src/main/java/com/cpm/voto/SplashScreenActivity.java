@@ -11,6 +11,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import org.acra.ACRA;
+
 public class SplashScreenActivity extends Activity {
     private static int SPLASH_TIME_OUT = 3000;
     public void onAttachedToWindow() {
@@ -25,6 +27,8 @@ public class SplashScreenActivity extends Activity {
         setContentView(R.layout.splash_screen_layout);
 
         StartAnimations();
+       /* ACRA.init(this);
+        ACRA.getErrorReporter().setReportSender(new MySender());*/
 
         new Handler().postDelayed(new Runnable() {
 

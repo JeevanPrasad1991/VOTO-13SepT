@@ -63,6 +63,7 @@ import com.cpm.database.GSKDatabase;
 import com.cpm.delegates.TableBean;
 import com.cpm.message.AlertMessage;
 import com.cpm.xmlGetterSetter.FailureGetterSetter;
+import com.cpm.xmlGetterSetter.JcpTypeGetterSetter;
 import com.cpm.xmlGetterSetter.LoginGetterSetter;
 import com.cpm.xmlGetterSetter.QuestionGetterSetter;
 import com.cpm.xmlHandler.XMLHandlers;
@@ -92,6 +93,7 @@ public class LoginActivity extends Activity implements OnClickListener {
     GSKDatabase database;
     static int counter = 1;
     private QuestionGetterSetter questionGetterSetter;
+    JcpTypeGetterSetter jcpTypeGetterSetter;
     String app_ver;
     int eventType;
     String right_answer, rigth_answer_cd = "", qns_cd, ans_cd;
@@ -111,8 +113,8 @@ public class LoginActivity extends Activity implements OnClickListener {
         ContentResolver.setMasterSyncAutomatically(false);
         mUsername = (EditText) findViewById(R.id.login_usertextbox);
         mPassword = (EditText) findViewById(R.id.login_locktextbox);
-       /* mUsername.setText("testmer");
-        mPassword.setText("cpm123");*/
+        /*mUsername.setText("vototl452");
+        mPassword.setText("voto@123");*/
         mLogin = (Button) findViewById(R.id.login_loginbtn);
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         editor = preferences.edit();
@@ -145,16 +147,17 @@ public class LoginActivity extends Activity implements OnClickListener {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_PHONE_STATE}, PERMISSIONS_REQUEST_READ_PHONE_STATE);
         } else {
             imeiNumbers = imei.getDeviceImei();
-            if (imeiNumbers.length==2){
+            if (imeiNumbers.length == 2) {
                 imei1 = imeiNumbers[0];
                 imei2 = imeiNumbers[1];
-            }else {
+            } else {
                 imei1 = imeiNumbers[0];
-                imei2="";
+                imei2 = "";
             }
 
         }
     }
+
     @Override
     protected void onDestroy() {
         // TODO Auto-generated method stub
@@ -320,11 +323,37 @@ public class LoginActivity extends Activity implements OnClickListener {
                         editor.putString(CommonString.KEY_VERSION, lgs.getVERSION());
                         editor.putString(CommonString.KEY_PATH, lgs.getPATH());
                         editor.putString(CommonString.KEY_DATE, lgs.getDATE());
+                        // editor.putString(CommonString.KEY_USER_TYPE, "Team Leader");
                         editor.putString(CommonString.KEY_USER_TYPE, lgs.getRIGHTNAME());
                         editor.commit();
 
-
                     }
+
+
+                    //JCP_TYPE download
+                    request = new SoapObject(CommonString.NAMESPACE, CommonString.METHOD_NAME_UNIVERSAL_DOWNLOAD);
+                    request.addProperty("UserName", username);
+                    request.addProperty("Type", "JCP_TYPE");
+                    envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+                    envelope.dotNet = true;
+                    envelope.setOutputSoapObject(request);
+                    androidHttpTransport = new HttpTransportSE(CommonString.URL);
+
+                    androidHttpTransport.call(CommonString.SOAP_ACTION_UNIVERSAL, envelope);
+                    result = (Object) envelope.getResponse();
+                    if (result.toString() != null) {
+                        xpp.setInput(new StringReader(result.toString()));
+                        xpp.next();
+                        eventType = xpp.getEventType();
+                        jcpTypeGetterSetter = XMLHandlers.JcpTypeXMLHandler(xpp, eventType);
+                        if (jcpTypeGetterSetter.getJcp_type() != null) {
+                            editor = preferences.edit();
+                          //  editor.putString(CommonString.KEY_SUPERVISOR_JCP_TYPE, "nojcp");
+                          editor.putString(CommonString.KEY_SUPERVISOR_JCP_TYPE, jcpTypeGetterSetter.getJcp_type());
+                            editor.commit();
+                        }
+                    }
+
                     //Question download
                     request = new SoapObject(CommonString.NAMESPACE, CommonString.METHOD_NAME_UNIVERSAL_DOWNLOAD);
                     request.addProperty("UserName", username);
@@ -670,6 +699,7 @@ public class LoginActivity extends Activity implements OnClickListener {
                 } else if (result.toString().equalsIgnoreCase(CommonString.KEY_FALSE)) {
                 } else {
                     String visit_date = preferences.getString(CommonString.KEY_DATE, null);
+                    editor = preferences.edit();
                     editor.putBoolean(CommonString.KEY_IS_QUIZ_DONE + visit_date, true);
                     editor.commit();
                     return CommonString.KEY_SUCCESS;
@@ -737,6 +767,7 @@ public class LoginActivity extends Activity implements OnClickListener {
             } else {
                 //Save question cd and ans cd here for upload
                 String visit_date = preferences.getString(CommonString.KEY_DATE, null);
+                editor = preferences.edit();
                 editor.putString(CommonString.KEY_QUESTION_CD + visit_date, qns_cd);
                 editor.putString(CommonString.KEY_ANSWER_CD + visit_date, ans_cd);
                 editor.commit();

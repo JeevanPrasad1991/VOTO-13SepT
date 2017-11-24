@@ -1,16 +1,23 @@
 package com.cpm.dailyentry;
 
+import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.Point;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +38,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.cpm.Constants.CommonString;
+import com.cpm.barcodereader.FullScreenScannerFragmentActivity;
 import com.cpm.database.GSKDatabase;
 import com.cpm.delegates.CoverageBean;
 import com.cpm.message.AlertMessage;
@@ -63,7 +71,7 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
     ArrayList<SaleEntryGetterSetter> insertedlist_Data = new ArrayList<>();
     ArrayList<ModelGetterSetter> model_list = new ArrayList<>();
     boolean uploadstatusflag = false;
-    FloatingActionButton btn_add, save_fab;
+    FloatingActionButton btn_add, save_fab, btn_noSale;
     RecyclerView salelist;
     MyAdapter adapter;
     NestedScrollView scroll;
@@ -71,7 +79,10 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
     EditText imei_no;
     Data data;
     boolean saveflag = false;
-
+    //for bar code reader
+    private static final int ZXING_CAMERA_PERMISSION = 1;
+    private Class<?> mClss;
+    String barcode = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +94,7 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         btn_add = (FloatingActionButton) findViewById(R.id.btn_add);
         save_fab = (FloatingActionButton) findViewById(R.id.save_fab);
+        btn_noSale = (FloatingActionButton) findViewById(R.id.btn_noSale);
         salelist = (RecyclerView) findViewById(R.id.demos_list);
         scroll = (NestedScrollView) findViewById(R.id.scroll);
         imei_no = (EditText) findViewById(R.id.imei_no);
@@ -95,14 +107,13 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
         db = new GSKDatabase(this);
         db.open();
         model_list = db.getmodeldata();
+
         model_adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item);
         model_adapter.add("-Select Model-");
-
 
         for (int i = 0; i < model_list.size(); i++) {
             model_adapter.add(model_list.get(i).getModel().get(0));
         }
-
 
         salespin.setAdapter(model_adapter);
         model_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -124,6 +135,10 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                                             secdata.setImeino(imei_no.getText().toString().trim());
                                             insertedlist_Data.add(secdata);
                                             Collections.reverse(insertedlist_Data);
+                                            if (!insertedlist_Data.get(0).getImeino().equals("") && !insertedlist_Data.get(0).getImeino().equals("0")) {
+                                                btn_noSale.setEnabled(false);
+                                                btn_noSale.setBackgroundResource(R.mipmap.nosale_grey);
+                                            }
                                             adapter = new MyAdapter(SaleEntryActivity.this, insertedlist_Data);
                                             salelist.setAdapter(adapter);
                                             salelist.setLayoutManager(new LinearLayoutManager(SaleEntryActivity.this));
@@ -182,13 +197,10 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                                                         } else {
                                                             Snackbar.make(btn_add, "No data upload", Snackbar.LENGTH_SHORT).show();
                                                         }
-
                                                     } else {
                                                         Snackbar.make(btn_add, "Data has been saved", Snackbar.LENGTH_SHORT).show();
                                                     }
                                                 }
-
-
                                             }
                                         })
                                 .setNegativeButton("No",
@@ -219,8 +231,57 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
             }
         });
 
+        btn_noSale.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(SaleEntryActivity.this);
+                builder.setTitle("Parinaam").setMessage(R.string.alertnosale);
+                builder.setPositiveButton(R.string.nosale, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        db.open();
+                        SaleEntryGetterSetter secdata = new SaleEntryGetterSetter();
+                        secdata.setModelno("0");
+                        secdata.setModel("No Sale");
+                        secdata.setImeino("0");
+                        insertedlist_Data.add(secdata);
+                        long l = db.insertSalesEntrydata(store_cd, username, visit_date, insertedlist_Data);
+                        if (l > 0) {
+                            if (checkNetIsAvailable()) {
+                                new DemosuploadTask(SaleEntryActivity.this).execute();
+                            } else {
+                                Snackbar.make(btn_add, "Data has been saved", Snackbar.LENGTH_SHORT).show();
+                            }
+                        }
+                    }
+                });
+                builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+                builder.show();
+            }
+        });
 
     }
+
+    //for bar code scanner
+    public void launchFullScreenScannerFragmentActivity(View v) {
+        launchActivity(FullScreenScannerFragmentActivity.class);
+    }
+
+    public void launchActivity(Class<?> clss) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            mClss = clss;
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, ZXING_CAMERA_PERMISSION);
+        } else {
+            Intent intent = new Intent(this, clss);
+            startActivityForResult(intent, 0);
+        }
+    }
+
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -239,8 +300,33 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
     }
 
     @Override
-    public void onNothingSelected(AdapterView<?> parent) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 0) {
+            if (data != null) {
+                Bundle bundle = data.getExtras();
+                barcode = bundle.getString("BARCODE");
+            }
+        }
+    }
 
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (!barcode.equals("")) {
+            String str = ("@#$%^*&[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_]*");
+            imei_no.setText(barcode);
+            if (barcode.length() != 15) {
+                showalertforimei("Incorrect imei no. Please fill correct imei no.");
+            } else if (barcode.contains(str)) {
+                showalertforimei("Incorrect imei no. Please fill correct imei no.");
+            }
+        }
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
     }
 
     public void showMessage(String message) {
@@ -266,6 +352,10 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
         try {
             insertedlist_Data = db.getinsertedSalesEntrydata(store_cd);
             if (insertedlist_Data.size() > 0) {
+                if (!insertedlist_Data.get(0).getImeino().equals("0")) {
+                    btn_noSale.setEnabled(false);
+                    btn_noSale.setBackgroundResource(R.mipmap.nosale_grey);
+                }
                 Collections.reverse(insertedlist_Data);
                 adapter = new MyAdapter(this, insertedlist_Data);
                 salelist.setAdapter(adapter);
@@ -319,6 +409,11 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                                             public void onClick(DialogInterface dialog,
                                                                 int id) {
                                                 insertedlist_Data.remove(position);
+                                                notifyDataSetChanged();
+                                                if (insertedlist_Data.size() == 0) {
+                                                    btn_noSale.setEnabled(true);
+                                                    btn_noSale.setBackgroundResource(R.mipmap.nosale);
+                                                }
                                                 if (insertedlist_Data.size() > 0) {
                                                     MyAdapter adapter = new MyAdapter(SaleEntryActivity.this, insertedlist_Data);
                                                     salelist.setAdapter(adapter);
@@ -346,8 +441,12 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                                                                 int id) {
                                                 String listid = insertedlist_Data.get(position).getKey_id();
                                                 db.remove(listid);
-                                                notifyDataSetChanged();
                                                 insertedlist_Data.remove(position);
+                                                notifyDataSetChanged();
+                                                if (insertedlist_Data.size() == 0) {
+                                                    btn_noSale.setEnabled(true);
+                                                    btn_noSale.setBackgroundResource(R.mipmap.nosale);
+                                                }
                                                 if (insertedlist_Data.size() > 0) {
                                                     MyAdapter adapter = new MyAdapter(SaleEntryActivity.this, insertedlist_Data);
                                                     salelist.setAdapter(adapter);
@@ -512,7 +611,7 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                             + username
                             + "[/USER_ID]" +
                             "[IMAGE_URL]"
-                            + ""
+                            + cDatalist.get(0).getImage()
                             + "[/IMAGE_URL]"
                             +
                             "[IMAGE_URL1]"
@@ -553,33 +652,74 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                     onXML = "";
                     insertedlist_Data = db.getinsertedSalesEntrydata(store_cd);
                     if (insertedlist_Data.size() > 0) {
-                        uploadstatusflag = false;
-                        for (int j = 0; j < insertedlist_Data.size(); j++) {
-                            String flag = "";
-                            if (!insertedlist_Data.get(j).getSatus().equals(CommonString.KEY_U)) {
-                                uploadstatusflag = true;
-                                onXML = "[SALE_ENTRY_DATA][MID]"
-                                        + mid
-                                        + "[/MID]"
-                                        + "[CREATED_BY]"
-                                        + username
-                                        + "[/CREATED_BY]"
-                                        + "[IMEI_NO]"
-                                        + insertedlist_Data.get(j).getImeino()
-                                        + "[/IMEI_NO]"
-                                        + "[MODEL_NO]"
-                                        + insertedlist_Data.get(j).getModelno()
-                                        + "[/MODEL_NO]"
+                        if (!insertedlist_Data.get(0).getImeino().equals("0")) {
+                            uploadstatusflag = false;
+                            for (int j = 0; j < insertedlist_Data.size(); j++) {
+                                String flag = "";
+                                if (!insertedlist_Data.get(j).getSatus().equals(CommonString.KEY_U)) {
+                                    uploadstatusflag = true;
+                                    onXML = "[SALE_ENTRY_DATA][MID]"
+                                            + mid
+                                            + "[/MID]"
+                                            + "[CREATED_BY]"
+                                            + username
+                                            + "[/CREATED_BY]"
+                                            + "[IMEI_NO]"
+                                            + insertedlist_Data.get(j).getImeino()
+                                            + "[/IMEI_NO]"
+                                            + "[MODEL_NO]"
+                                            + insertedlist_Data.get(j).getModelno()
+                                            + "[/MODEL_NO]"
 
-                                        + "[/SALE_ENTRY_DATA]";
-                                final_xml = final_xml + onXML;
+                                            + "[/SALE_ENTRY_DATA]";
+                                    final_xml = final_xml + onXML;
+                                }
                             }
-                        }
-                        if (uploadstatusflag) {
+                            if (uploadstatusflag) {
+                                final String sos_xml = "[DATA]" + final_xml + "[/DATA]";
+                                request = new SoapObject(CommonString.NAMESPACE, CommonString.METHOD_UPLOAD_XML);
+                                request.addProperty("XMLDATA", sos_xml);
+                                request.addProperty("KEYS", "SALE_ENTRY_DATA");
+                                request.addProperty("USERNAME", username);
+                                request.addProperty("MID", mid);
+                                envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+                                envelope.dotNet = true;
+                                envelope.setOutputSoapObject(request);
+                                androidHttpTransport = new HttpTransportSE(CommonString.URL);
+                                androidHttpTransport.call(CommonString.SOAP_ACTION + CommonString.METHOD_UPLOAD_XML, envelope);
+                                result = (Object) envelope.getResponse();
+                                if (result.toString().equalsIgnoreCase(CommonString.KEY_SUCCESS)) {
+                                    for (int i = 0; i < insertedlist_Data.size(); i++) {
+                                        long l = db.updateSaleDataStatus(store_cd, insertedlist_Data.get(i).getKey_id(),
+                                                CommonString.KEY_U);
+                                    }
+                                    return CommonString.KEY_SUCCESS;
+                                }
+                                data.value = 70;
+                                data.name = "100";
+                                publishProgress(data);
+                            }
+                        } else {
+                            onXML = "[SALE_ENTRY_DATA][MID]"
+                                    + mid
+                                    + "[/MID]"
+                                    + "[CREATED_BY]"
+                                    + username
+                                    + "[/CREATED_BY]"
+                                    + "[IMEI_NO]"
+                                    + insertedlist_Data.get(0).getImeino()
+                                    + "[/IMEI_NO]"
+                                    + "[MODEL_NO]"
+                                    + insertedlist_Data.get(0).getModelno()
+                                    + "[/MODEL_NO]"
+
+                                    + "[/SALE_ENTRY_DATA]";
+                            final_xml = final_xml + onXML;
+
                             final String sos_xml = "[DATA]" + final_xml + "[/DATA]";
                             request = new SoapObject(CommonString.NAMESPACE, CommonString.METHOD_UPLOAD_XML);
                             request.addProperty("XMLDATA", sos_xml);
-                            request.addProperty("KEYS", "SALE_ENTRY_DATA");
+                            request.addProperty("KEYS", "NO_SALE_DATA");
                             request.addProperty("USERNAME", username);
                             request.addProperty("MID", mid);
                             envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
@@ -590,8 +730,7 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                             result = (Object) envelope.getResponse();
                             if (result.toString().equalsIgnoreCase(CommonString.KEY_SUCCESS)) {
                                 for (int i = 0; i < insertedlist_Data.size(); i++) {
-                                    long l = db.updateSaleDataStatus(store_cd, insertedlist_Data.get(i).getKey_id(),
-                                            CommonString.KEY_U);
+                                    long l = db.updateSaleDataStatus(store_cd, insertedlist_Data.get(i).getKey_id(), CommonString.KEY_U);
                                 }
                                 return CommonString.KEY_SUCCESS;
                             }
@@ -661,6 +800,7 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
         String name;
     }
 
+
     public void showAlert(String str) {
         AlertDialog.Builder builder = new AlertDialog.Builder(SaleEntryActivity.this);
         builder.setTitle("Parinaam");
@@ -671,6 +811,22 @@ public class SaleEntryActivity extends AppCompatActivity implements AdapterView.
                 });
         AlertDialog alert = builder.create();
         alert.show();
+    }
+
+    public void showalertforimei(String str) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(SaleEntryActivity.this);
+        builder.setTitle("Parinaam");
+        builder.setMessage(str).setCancelable(false)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                imei_no.setText("");
+                                imei_no.setHint("Imei");
+                            }
+                        });
+        AlertDialog alert = builder.create();
+        alert.show();
+
     }
 
 

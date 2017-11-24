@@ -86,6 +86,7 @@ public class DailyEntryScreen extends AppCompatActivity implements OnItemClickLi
         _UserId = preferences.getString(CommonString.KEY_USER_ID, null);
         visit_date = preferences.getString(CommonString.KEY_DATE, null);
         user_type = preferences.getString(CommonString.KEY_USER_TYPE, null);
+        getSupportActionBar().setTitle("Store List -" + visit_date);
         database = new GSKDatabase(this);
         database.open();
         fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -191,7 +192,24 @@ public class DailyEntryScreen extends AppCompatActivity implements OnItemClickLi
                 public void onClick(View v) {
                     // TODO Auto-generated method stub
                     if (CheckNetAvailability()) {
-                        final Dialog dialog = new Dialog(DailyEntryScreen.this);
+                        AlertDialog.Builder builder = new AlertDialog.Builder(DailyEntryScreen.this);
+                        builder.setTitle("Parinaam").setMessage(R.string.alertmessage);
+                        builder.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent i = new Intent(DailyEntryScreen.this, AttendenceActivity.class);
+                                startActivity(i);
+                                dialog.dismiss();
+                            }
+                        });
+                        builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+                        builder.show();
+                       /* final Dialog dialog = new Dialog(DailyEntryScreen.this);
                         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
                         dialog.setContentView(R.layout.dialog);
                         WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
@@ -218,7 +236,7 @@ public class DailyEntryScreen extends AppCompatActivity implements OnItemClickLi
 
                             }
                         });
-                        dialog.show();
+                        dialog.show();*/
                     } else {
                         Snackbar.make(lv, "Check internet connection", Snackbar.LENGTH_SHORT).setAction("Action", null).show();
                     }

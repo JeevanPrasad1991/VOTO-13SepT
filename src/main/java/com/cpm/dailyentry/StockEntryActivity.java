@@ -72,7 +72,6 @@ public class StockEntryActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Stock Entry");
         stock_list = (RecyclerView) findViewById(R.id.stock_list);
         save_fab = (FloatingActionButton) findViewById(R.id.save_fab);
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
@@ -81,6 +80,8 @@ public class StockEntryActivity extends AppCompatActivity {
         username = preferences.getString(CommonString.KEY_USERNAME, null);
         visit_date = preferences.getString(CommonString.KEY_DATE, null);
         app_ver = preferences.getString(CommonString.KEY_VERSION, "");
+        getSupportActionBar().setTitle("Stock Entry -" + visit_date);
+
         db = new GSKDatabase(this);
         db.open();
         validate();
@@ -247,12 +248,14 @@ public class StockEntryActivity extends AppCompatActivity {
         public int getItemCount() {
             return list.size();
         }
+
         @Override
         public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             View view = inflator.inflate(R.layout.secondary_adapter_new, parent, false);
             MyViewHolder holder = new MyViewHolder(view);
             return holder;
         }
+
         @Override
         public void onBindViewHolder(final MyViewHolder holder, final int position) {
             holder.modelname.setText(list.get(position).getModel().get(0));
@@ -347,7 +350,7 @@ public class StockEntryActivity extends AppCompatActivity {
                             + username
                             + "[/USER_ID]" +
                             "[IMAGE_URL]"
-                            + ""
+                            + cDatalist.get(0).getImage()
                             + "[/IMAGE_URL]"
                             +
                             "[IMAGE_URL1]"

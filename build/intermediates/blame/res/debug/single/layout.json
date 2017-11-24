@@ -1,19 +1,31 @@
 [
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_pdf.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_pdf.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_screen_simple.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\select_dialog_item_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_main_menu_daily.xml",
@@ -24,20 +36,32 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\main.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_list.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen_layout.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\splash_screen_layout.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\mcam_fragment_videocapture.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\layout\\mcam_fragment_videocapture.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_media_action.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\custom.xml",
@@ -48,6 +72,10 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_main_menu.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input_check.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_input_check.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\f700636653b0e23af198d513a49a6de3cebcdd5c\\output\\res\\layout\\place_autocomplete_progress.xml"
     },
@@ -56,28 +84,32 @@
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\f700636653b0e23af198d513a49a6de3cebcdd5c\\output\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\update.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\update.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\update.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\update.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\upload_option.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\upload_option.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_progress.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_screen_content_include.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
@@ -89,7 +121,23 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdf_opner_web.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_pdf_opner_web.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_stub_actionbuttons.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\listview_item.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_stock.xml",
@@ -104,24 +152,44 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\app_bar_main_menu_daily.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sale_entry.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_sale_entry.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\mcam_fragment_stillshot.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\layout\\mcam_fragment_stillshot.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_search_view.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_stub_titleframe.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main_menu2.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\nav_header_main_menu2.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\audit_adapter.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\audit_adapter.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_attendence.xml",
@@ -129,15 +197,31 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_attendence.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_attendence.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdf.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_pdf.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\mcam_include_camera_preview.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\layout\\mcam_include_camera_preview.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_input.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_help.xml",
@@ -149,15 +233,15 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
@@ -165,11 +249,11 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_entry.xml",
@@ -184,28 +268,36 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\dailyentry.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\secondary_adapter.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\secondary_adapter.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\secondary_adapter.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\secondary_adapter.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_stub_titleframe_lesspadding.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_audit_list.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_audit_list.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\storelistrow.xml",
@@ -218,6 +310,10 @@
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\custom_row.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\custom_row.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_basic.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main_menu.xml",
@@ -233,11 +329,15 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic_check.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_basic_check.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_sale.xml",
@@ -249,7 +349,15 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_template_media.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\dialogstorelistrow.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\dialogstorelistrow.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_custom_item.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\spinner_custom_item.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\custom_upload.xml",
@@ -260,8 +368,12 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_menu.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_listitem.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_menu.xml",
@@ -272,28 +384,52 @@
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\f700636653b0e23af198d513a49a6de3cebcdd5c\\output\\res\\layout\\place_autocomplete_fragment.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\search_store_popup.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\search_store_popup.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\supervisorattentence_act.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\supervisorattentence_act.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_custom.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_supervisorattent.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_supervisorattent.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_media_cancel_action.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\checkout_n_upload.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\checkout_n_upload.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
@@ -301,39 +437,55 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\show_answer_layout.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\show_answer_layout.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdf_opner_acivity.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_pdf_opner_acivity.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_supervisor_store_list.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_supervisor_store_list.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_text_view.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\spinner_text_view.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_menu2.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_main_menu2.xml"
     },
     {
-        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_performance.xml",
-        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_performance.xml"
-    },
-    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_main_menu2.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_main_menu2.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_performance.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\content_performance.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\c257ef71dad57572ec0faea34c55fce1e0fd4368\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\mcam_activity_videocapture.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\library\\build\\intermediates\\bundles\\default\\res\\layout\\mcam_activity_videocapture.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\content_splash_screen.xml",
@@ -349,15 +501,23 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_template_part_time.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\todays_question_layout.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\todays_question_layout.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_listitem_singlechoice.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\storename.xml",
@@ -369,7 +529,7 @@
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\notification_template_big_media.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_performance_activty.xml",
@@ -384,15 +544,39 @@
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\supervisordailyentry.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\supervisordailyentry.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_progress_indeterminate.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audit.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_audit.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_document.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_document.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list_check.xml",
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\8d7cd7ba0110e4cb16610b00c07c3a49695bcf79\\output\\res\\layout\\md_dialog_list_check.xml"
     },
     {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_menu.xml",
         "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\app_bar_menu.xml"
     },
     {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_full_screen_scanner_fragment.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\activity_full_screen_scanner_fragment.xml"
+    },
+    {
         "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "source": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\build\\intermediates\\res\\merged\\debug\\layout\\barcode_capture.xml",
+        "source": "F:\\jeevanAndroidProject\\androidProject\\VOTO-13SepT\\src\\main\\res\\layout\\barcode_capture.xml"
     }
 ]

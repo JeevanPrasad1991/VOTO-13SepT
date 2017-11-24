@@ -11,13 +11,13 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\37114a92b09733590c9f0ff965b708862df47420\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\jeevanp.CPMIN.000\\.android\\build-cache\\3a80da71668623b34b688cb02f059e4a6c21a8b0\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 229,
+                        "startOffset": 55,
                         "endColumn": 48,
-                        "endOffset": 273
+                        "endOffset": 99
                     }
                 }
             }

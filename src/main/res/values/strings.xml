@@ -79,5 +79,23 @@
     <string name="prompt_userid">Username</string>
     <string name="prompt_password">Password</string>
 
-
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="full_screen_sample">Full Screen Fragment Sample</string>
+    <string name="custom_view_finder_sample">Custom View Finder Sample</string>
+    <string name="scaling_sample">Scaling Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <bool name="cameraPreviewShouldFillView">true</bool>
+    <string name="alertnosale">Are you sure there is no sale for today? \n\n You will not be able to add more sale today.</string>
+    <string name="nosale">No Sale</string>
+    <string name="alertmessage">Are you sure you want to Checkout? \n\n You will not be able to enter more data in store today.</string>
 </resources>
